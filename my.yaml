@@ -2810,6 +2810,41 @@ proxies:
     path: /
     headers:
       Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+- name: 中国 V2CROSS.COM
+  type: vmess
+  server: v12.hdacd.com
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 福建省泉州市 电信
+  type: vmess
+  server: planb.mojcn.com
+  port: 16641
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+- name: 英国 V2CROSS.COM
+  type: vmess
+  server: m.cnmjin.net
+  port: 16617
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -3050,6 +3085,9 @@ proxy-groups:
   - 英国 V2CROSS.COM
   - 英国 V2CROSS.COM
   - 亚太地区 V2CROSS.COM
+  - 英国 V2CROSS.COM
+  - 中国 V2CROSS.COM
+  - 福建省泉州市 电信
   - 英国 V2CROSS.COM
 rules:
 - MATCH,PROXY
