@@ -766,6 +766,175 @@ proxies:
     path: /linkvws
     headers:
       Host: o.metuji.com
+- name: 🇫🇷FR_71 | 5.78Mb
+  type: vmess
+  server: 146.59.118.250
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: lammaland.org
+- name: 🇫🇷FR_72
+  type: vmess
+  server: 146.59.70.146
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: yichueng.org
+- name: 🇫🇷FR_73
+  type: vmess
+  server: 141.94.155.229
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: pelang.org
+- name: 🇫🇷FR_74
+  type: vmess
+  server: 91.134.8.100
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: kampong.org
+- name: 🇫🇷FR_75
+  type: vmess
+  server: 91.134.8.92
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: yichueng.org
+- name: Relay_🇭🇰HK-🇭🇰HK_77
+  type: vmess
+  server: 2bb9ebed-t70f40-t7hsj2-1gevg.hkt.gotochinatown.net
+  port: 80
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_78
+  type: vmess
+  server: 75f6c3c7-t70f40-tiuovf-v3c2.hkt.gotochinatown.net
+  port: 80
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_79
+  type: vmess
+  server: 35edea2d-t6r5s0-teivih-1rz31.hk3.p5pv.com
+  port: 80
+  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_80
+  type: vmess
+  server: be5ff12f-t729s0-t7scm6-1o20w.hk3.p5pv.com
+  port: 80
+  uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_81
+  type: vmess
+  server: 30b4f2b0-t729s0-tasors-1tdqt.hk3.p5pv.com
+  port: 80
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_82
+  type: vmess
+  server: 3662931c-t6ngg0-thiwul-1gcq2.hk3.p5pv.com
+  port: 80
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 3662931c-t6ngg0-thiwul-1gcq2.hk3.p5pv.com
+- name: Relay_🇭🇰HK-🇭🇰HK_83
+  type: vmess
+  server: f459d631-t6ngg0-t72h4q-1spnr.hk3.p5pv.com
+  port: 80
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_84
+  type: vmess
+  server: c9b11370-t6t0g0-tdcdb7-1k27l.hk3.p5pv.com
+  port: 80
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -839,5 +1008,18 @@ proxy-groups:
   - 🇫🇷FR_68
   - 🇫🇷FR_69
   - 🇫🇷FR_70
+  - 🇫🇷FR_71 | 5.78Mb
+  - 🇫🇷FR_72
+  - 🇫🇷FR_73
+  - 🇫🇷FR_74
+  - 🇫🇷FR_75
+  - Relay_🇭🇰HK-🇭🇰HK_77
+  - Relay_🇭🇰HK-🇭🇰HK_78
+  - Relay_🇭🇰HK-🇭🇰HK_79
+  - Relay_🇭🇰HK-🇭🇰HK_80
+  - Relay_🇭🇰HK-🇭🇰HK_81
+  - Relay_🇭🇰HK-🇭🇰HK_82
+  - Relay_🇭🇰HK-🇭🇰HK_83
+  - Relay_🇭🇰HK-🇭🇰HK_84
 rules:
 - MATCH,PROXY
