@@ -2002,6 +2002,162 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_169
+  type: vmess
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  port: 80
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_170
+  type: vmess
+  server: d0563283-t6r5s0-tg010c-1r7od.hkt.gotochinatown.net
+  port: 80
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d0563283-t6r5s0-tg010c-1r7od.hkt.gotochinatown.net
+- name: Relay_🇭🇰HK-🇭🇰HK_171
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: f7d95364-607b-11ee-93af-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: Relay_🇭🇰HK-🇭🇰HK_172
+  type: vmess
+  server: 07925bbe-t70f40-tpn98f-1rcxl.hkt.gotochinatown.net
+  port: 80
+  uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_173
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: Relay_🇭🇰HK-🇭🇰HK_174
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hkt.gotochinatown.net
+- name: Relay_🇭🇰HK-🇭🇰HK_175
+  type: vmess
+  server: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
+  port: 80
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_176
+  type: vmess
+  server: f5514da0-t70f40-tc9wl2-py5w.hkt.gotochinatown.net
+  port: 80
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_177
+  type: vmess
+  server: 1d1a8655-t70f40-tkhmfr-1jm8i.hkt.gotochinatown.net
+  port: 80
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_178
+  type: vmess
+  server: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com
+  port: 80
+  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_179
+  type: vmess
+  server: 5a694a9d-t70f40-tkka1f-1k25p.hkt.gotochinatown.net
+  port: 80
+  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_180
+  type: vmess
+  server: 7c083e00-t70f40-tg010c-1r7od.hkt.gotochinatown.net
+  port: 80
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -2171,5 +2327,17 @@ proxy-groups:
   - Relay_🇭🇰HK-🇭🇰HK_166
   - Relay_🇭🇰HK-🇭🇰HK_167
   - Relay_🇭🇰HK-🇭🇰HK_168
+  - Relay_🇭🇰HK-🇭🇰HK_169
+  - Relay_🇭🇰HK-🇭🇰HK_170
+  - Relay_🇭🇰HK-🇭🇰HK_171
+  - Relay_🇭🇰HK-🇭🇰HK_172
+  - Relay_🇭🇰HK-🇭🇰HK_173
+  - Relay_🇭🇰HK-🇭🇰HK_174
+  - Relay_🇭🇰HK-🇭🇰HK_175
+  - Relay_🇭🇰HK-🇭🇰HK_176
+  - Relay_🇭🇰HK-🇭🇰HK_177
+  - Relay_🇭🇰HK-🇭🇰HK_178
+  - Relay_🇭🇰HK-🇭🇰HK_179
+  - Relay_🇭🇰HK-🇭🇰HK_180
 rules:
 - MATCH,PROXY
