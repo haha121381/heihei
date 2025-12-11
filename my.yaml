@@ -1087,6 +1087,158 @@ proxies:
     path: /564dfa20/
     headers:
       Host: aflzzul.meiquankongjian.com
+- name: Relay_🇭🇰HK-🇭🇰HK_97
+  type: vmess
+  server: 584dfcf4-t6r5s0-t83wx3-19xg1.hk3.p5pv.com
+  port: 80
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_98
+  type: vmess
+  server: 4e1cec09-t6ngg0-td1l1t-1s824.hk3.p5pv.com
+  port: 80
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇺🇸US_100
+  type: vmess
+  server: 154.211.8.58
+  port: 443
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /aa
+    headers:
+      Host: us.nbee.pp.ua
+- name: Relay_🇭🇰HK-🇭🇰HK_101
+  type: vmess
+  server: 548481b2-sv2sg0-t2hqlr-1s3mx.hk3.p5pv.com
+  port: 80
+  uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: 🇭🇰HK_102 | 5.08Mb
+  type: vmess
+  server: 47.242.145.160
+  port: 44457
+  uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+- name: Relay_🇭🇰HK-🇭🇰HK_103
+  type: vmess
+  server: 0aec0222-t6ngg0-t9p7yj-1ijh5.hk3.p5pv.com
+  port: 80
+  uuid: f7d95364-607b-11ee-93af-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_104
+  type: vmess
+  server: 5ebd44b6-t6ngg0-t7v83h-1kcpe.hk3.p5pv.com
+  port: 80
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_105
+  type: vmess
+  server: c7005dd3-t6ngg0-tg010c-1r7od.hk3.p5pv.com
+  port: 80
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_106
+  type: vmess
+  server: 08070bda-t729s0-t7v83h-1kcpe.hk3.p5pv.com
+  port: 80
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_107
+  type: vmess
+  server: 92edc3a0-t729s0-t8hcgy-1phla.hk3.p5pv.com
+  port: 80
+  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_108
+  type: vmess
+  server: 61fc54d4-sv4n40-ta5i1s-1j61y.hk3.p5pv.com
+  port: 80
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_109
+  type: vmess
+  server: bd77ce9f-t6r5s0-tm23vf-1jk6u.hk3.p5pv.com
+  port: 80
+  uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -1185,5 +1337,17 @@ proxy-groups:
   - Relay_🇭🇰HK-🇭🇰HK_94
   - Relay_🇭🇰HK-🇭🇰HK_95
   - 🇭🇰HK_96
+  - Relay_🇭🇰HK-🇭🇰HK_97
+  - Relay_🇭🇰HK-🇭🇰HK_98
+  - Relay_🇭🇰HK-🇺🇸US_100
+  - Relay_🇭🇰HK-🇭🇰HK_101
+  - 🇭🇰HK_102 | 5.08Mb
+  - Relay_🇭🇰HK-🇭🇰HK_103
+  - Relay_🇭🇰HK-🇭🇰HK_104
+  - Relay_🇭🇰HK-🇭🇰HK_105
+  - Relay_🇭🇰HK-🇭🇰HK_106
+  - Relay_🇭🇰HK-🇭🇰HK_107
+  - Relay_🇭🇰HK-🇭🇰HK_108
+  - Relay_🇭🇰HK-🇭🇰HK_109
 rules:
 - MATCH,PROXY
