@@ -2884,6 +2884,19 @@ proxies:
     path: /speedtest
     headers:
       Host: ''
+- name: 广东省深圳市 BGP数据中心
+  type: vmess
+  server: planb.mojcn.com
+  port: 16645
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -3131,5 +3144,6 @@ proxy-groups:
   - 福建省泉州市 电信
   - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
+  - 广东省深圳市 BGP数据中心
 rules:
 - MATCH,PROXY
