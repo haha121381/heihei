@@ -2932,6 +2932,15 @@ proxies:
     path: /
     headers:
       Host: sy4.620720.xyz
+- name: 美国 加利福尼亚州洛杉矶IT7网络
+  type: vmess
+  server: 198.181.34.22
+  port: 11133
+  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
 proxy-groups:
 - name: PROXY
   type: select
@@ -3183,5 +3192,6 @@ proxy-groups:
   - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
   - 美国 CloudFlare节点
+  - 美国 加利福尼亚州洛杉矶IT7网络
 rules:
 - MATCH,PROXY
