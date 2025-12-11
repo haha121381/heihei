@@ -2871,6 +2871,19 @@ proxies:
     path: /speedtest
     headers:
       Host: ''
+- name: 美国 V2CROSS.COM
+  type: vmess
+  server: 74.117.196.232
+  port: 37934
+  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: ''
 proxy-groups:
 - name: PROXY
   type: select
@@ -3116,6 +3129,7 @@ proxy-groups:
   - 福建省泉州市 电信
   - 英国 V2CROSS.COM
   - 福建省泉州市 电信
+  - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
 rules:
 - MATCH,PROXY
