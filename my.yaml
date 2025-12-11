@@ -2950,6 +2950,19 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
+- name: 意大利 V2CROSS.COM
+  type: vmess
+  server: aflzzul.meiquankongjian.com
+  port: 52513
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /564dfa20/
+    headers:
+      Host: aflzzul.meiquankongjian.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -3203,5 +3216,6 @@ proxy-groups:
   - 美国 CloudFlare节点
   - 美国 加利福尼亚州洛杉矶IT7网络
   - 美国 华盛顿Cogent通信公司
+  - 意大利 V2CROSS.COM
 rules:
 - MATCH,PROXY
