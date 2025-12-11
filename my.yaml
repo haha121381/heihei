@@ -1547,6 +1547,149 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_134
+  type: vmess
+  server: 918259a8-t4jj40-tnbkh1-1ejce.hkt.gotochinatown.net
+  port: 80
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 918259a8-t4jj40-tnbkh1-1ejce.hkt.gotochinatown.net
+- name: Relay_🇭🇰HK-🇭🇰HK_135
+  type: vmess
+  server: ad3b4d67-t70f40-tjsm26-6gn6.hkt.gotochinatown.net
+  port: 80
+  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_136
+  type: vmess
+  server: 3c10fcdf-t6r5s0-tdcdb7-1k27l.hkt.gotochinatown.net
+  port: 80
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_137
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_138
+  type: vmess
+  server: 444b4d78-t70f40-tnbkh1-1ejce.hkt.gotochinatown.net
+  port: 80
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_139
+  type: vmess
+  server: 62625673-t729s0-tiuovf-v3c2.hk3.p5pv.com
+  port: 80
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_140
+  type: vmess
+  server: f06ab53d-t70f40-t7xcfs-1ldl3.hkt.gotochinatown.net
+  port: 80
+  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_141
+  type: vmess
+  server: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net
+  port: 80
+  uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_142
+  type: vmess
+  server: a0d03427-t70f40-tm23vf-1jk6u.hkt.gotochinatown.net
+  port: 80
+  uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_143
+  type: vmess
+  server: 71ac3d4f-t6r5s0-t85e8f-141tv.hkt.gotochinatown.net
+  port: 80
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_144
+  type: vmess
+  server: e6744b60-t70f40-t83wx3-19xg1.hkt.gotochinatown.net
+  port: 80
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -1681,5 +1824,16 @@ proxy-groups:
   - Relay_🇭🇰HK-🇭🇰HK_131
   - Relay_🇭🇰HK-🇭🇰HK_132
   - Relay_🇭🇰HK-🇭🇰HK_133
+  - Relay_🇭🇰HK-🇭🇰HK_134
+  - Relay_🇭🇰HK-🇭🇰HK_135
+  - Relay_🇭🇰HK-🇭🇰HK_136
+  - Relay_🇭🇰HK-🇭🇰HK_137
+  - Relay_🇭🇰HK-🇭🇰HK_138
+  - Relay_🇭🇰HK-🇭🇰HK_139
+  - Relay_🇭🇰HK-🇭🇰HK_140
+  - Relay_🇭🇰HK-🇭🇰HK_141
+  - Relay_🇭🇰HK-🇭🇰HK_142
+  - Relay_🇭🇰HK-🇭🇰HK_143
+  - Relay_🇭🇰HK-🇭🇰HK_144
 rules:
 - MATCH,PROXY
