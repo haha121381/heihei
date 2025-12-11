@@ -2919,6 +2919,19 @@ proxies:
   cipher: auto
   tls: false
   network: none
+- name: 美国 CloudFlare节点
+  type: vmess
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sy4.620720.xyz
 proxy-groups:
 - name: PROXY
   type: select
@@ -3169,5 +3182,6 @@ proxy-groups:
   - 广东省深圳市 BGP数据中心
   - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
+  - 美国 CloudFlare节点
 rules:
 - MATCH,PROXY
