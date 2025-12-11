@@ -2464,6 +2464,136 @@ proxies:
     path: linkvws
     headers:
       Host: kampong.org
+- name: Relay_🇺🇸US-🇬🇧GB_243 |30.77Mb
+  type: vmess
+  server: fn.130519.xyz
+  port: 8443
+  uuid: 19aebb35-b458-4d0c-b767-2adb39e6bb02
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /19aebb35-b458-4d0c-b767-2adb39e6bb02-vm
+    headers:
+      Host: deji.186507.xyz
+- name: Relay_🇺🇸US-🏁ZZ_244 |25.93Mb
+  type: vmess
+  server: lt.fxlcn.com
+  port: 45288
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇦🇺AU_245
+  type: vmess
+  server: 216.227.168.157
+  port: 45237
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇧🇬BG_246 |33.88Mb
+  type: vmess
+  server: lt.fxlcn.com
+  port: 45258
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🇺🇸US_247
+  type: vmess
+  server: 216.227.168.157
+  port: 45247
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇹🇼TW_248
+  type: vmess
+  server: 216.227.168.157
+  port: 45242
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇺🇸US_249 |33.65Mb
+  type: vmess
+  server: fa.fxlcn.com
+  port: 45208
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇷🇺RU_251
+  type: vmess
+  server: 216.227.168.157
+  port: 45294
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇷🇴RO_252
+  type: vmess
+  server: 216.227.168.157
+  port: 45272
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: raw
+- name: 🇺🇸US_253 | 4.30Mb
+  type: vmess
+  server: 47.253.197.26
+  port: 12056
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 🇺🇸US_254 |19.83Mb
+  type: vmess
+  server: 208.76.223.218
+  port: 27092
+  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 🇺🇸US_255 |31.59Mb
+  type: vmess
+  server: 38.180.16.86
+  port: 38039
+  uuid: 244a3464-1269-43b3-b491-4dc2713eb3f6
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: Relay_🇺🇸US-🇦🇺AU_256 |30.23Mb
+  type: vmess
+  server: fa.fxlcn.com
+  port: 45237
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: Relay_🇺🇸US-🇺🇦UA_257 |115.83Mb
+  type: vmess
+  server: lt.fxlcn.com
+  port: 45287
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
 proxy-groups:
 - name: PROXY
   type: select
@@ -2671,5 +2801,19 @@ proxy-groups:
   - 🇺🇸US_239 |489.76Mb
   - Relay_🇺🇸US-🇺🇦UA_240
   - 🇺🇸US_242 |21.20Mb
+  - Relay_🇺🇸US-🇬🇧GB_243 |30.77Mb
+  - Relay_🇺🇸US-🏁ZZ_244 |25.93Mb
+  - Relay_🇺🇸US-🇦🇺AU_245
+  - Relay_🇺🇸US-🇧🇬BG_246 |33.88Mb
+  - 🇺🇸US_247
+  - Relay_🇺🇸US-🇹🇼TW_248
+  - Relay_🇺🇸US-🇺🇸US_249 |33.65Mb
+  - Relay_🇺🇸US-🇷🇺RU_251
+  - Relay_🇺🇸US-🇷🇴RO_252
+  - 🇺🇸US_253 | 4.30Mb
+  - 🇺🇸US_254 |19.83Mb
+  - 🇺🇸US_255 |31.59Mb
+  - Relay_🇺🇸US-🇦🇺AU_256 |30.23Mb
+  - Relay_🇺🇸US-🇺🇦UA_257 |115.83Mb
 rules:
 - MATCH,PROXY
