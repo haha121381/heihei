@@ -2775,6 +2775,41 @@ proxies:
     path: /
     headers:
       Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+- name: 英国 V2CROSS.COM
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 亚太地区 V2CROSS.COM
+  type: vmess
+  server: m.cnmjin.net
+  port: 16622
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+- name: 英国 V2CROSS.COM
+  type: vmess
+  server: m.cnmjin.net
+  port: 16645
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -3011,6 +3046,9 @@ proxy-groups:
   - Relay_🇺🇸US-🇨🇿CZ_271
   - 🇺🇸US_272 |29.94Mb
   - 美国 V2CROSS.COM
+  - 亚太地区 V2CROSS.COM
+  - 英国 V2CROSS.COM
+  - 英国 V2CROSS.COM
   - 亚太地区 V2CROSS.COM
   - 英国 V2CROSS.COM
 rules:
