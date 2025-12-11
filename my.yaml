@@ -2963,6 +2963,19 @@ proxies:
     path: /564dfa20/
     headers:
       Host: aflzzul.meiquankongjian.com
+- name: 美国 CloudFlare节点
+  type: vmess
+  server: cf.fovi.tk
+  port: 443
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxlux.fovi.tk
 proxy-groups:
 - name: PROXY
   type: select
@@ -3217,5 +3230,6 @@ proxy-groups:
   - 美国 加利福尼亚州洛杉矶IT7网络
   - 美国 华盛顿Cogent通信公司
   - 意大利 V2CROSS.COM
+  - 美国 CloudFlare节点
 rules:
 - MATCH,PROXY
