@@ -2910,6 +2910,15 @@ proxies:
     path: /speedtest
     headers:
       Host: ''
+- name: 美国 V2CROSS.COM
+  type: vmess
+  server: 216.238.89.53
+  port: 57283
+  uuid: 1a5aafc0-6482-451d-fe76-6875b7818579
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
 proxy-groups:
 - name: PROXY
   type: select
@@ -3158,6 +3167,7 @@ proxy-groups:
   - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
   - 广东省深圳市 BGP数据中心
+  - 美国 V2CROSS.COM
   - 美国 V2CROSS.COM
 rules:
 - MATCH,PROXY
