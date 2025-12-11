@@ -1,0 +1,267 @@
+proxies:
+- name: 🇺🇸US_273 |21.67Mb
+  type: vmess
+  server: 154.201.76.172
+  port: 20990
+  uuid: ba50e1fe-055f-4587-fd0d-36c8d6615192
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 🏁ZZ_275 |61.21Mb
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: Relay_🏁ZZ-🇺🇸US_276 | 7.34Mb
+  type: vmess
+  server: 104.19.61.72
+  port: 443
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /aa
+    headers:
+      Host: hk.nbee.pp.ua
+- name: Pool_🏁ZZ_277 |37.79Mb
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🏁ZZ_278 |22.98Mb
+  type: vmess
+  server: 103.127.218.91
+  port: 54693
+  uuid: 1cef03ad-6343-408c-8121-cbd1fda2ee9d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /1cef03ad
+    headers:
+      Host: ''
+- name: _20 |20.51Mb
+  type: trojan
+  server: 58.152.25.242
+  port: 443
+  tls: false
+  network: tcp
+  sni: t.me%252Fripaojiedian
+  password: BxceQaOe
+- name: _21 |16.61Mb
+  type: trojan
+  server: 58.152.30.120
+  port: 443
+  tls: false
+  network: tcp
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+- name: _22 |32.17Mb
+  type: trojan
+  server: 58.152.110.82
+  port: 443
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: _23 |23.39Mb
+  type: trojan
+  server: 58.152.25.20
+  port: 443
+  tls: false
+  network: tcp
+  sni: t.me%252Fripaojiedian
+  password: BxceQaOe
+- name: _24 |24.17Mb
+  type: trojan
+  server: 160.16.214.6
+  port: 2890
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: _25 |19.66Mb
+  type: trojan
+  server: 202.181.103.235
+  port: 2890
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇫🇷FR_76
+  type: trojan
+  server: 13.39.187.138
+  port: 22222
+  tls: false
+  network: tcp
+  sni: trojan.burgerip.co.uk
+  password: telegram-id-privatevpns
+- name: 🇭🇰HK_195 | 3.86Mb
+  type: trojan
+  server: 58.152.18.71
+  port: 443
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇭🇰HK_196 | 2.41Mb
+  type: trojan
+  server: 47.242.225.242
+  port: 443
+  tls: false
+  network: tcp
+  sni: hezijiasuqi.com
+  password: 92690597d6298061459918a371e8d77d
+- name: Relay_🇯🇵JP-🇸🇬SG_200 | 1.06Mb
+  type: trojan
+  server: 160.16.233.76
+  port: 507
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: Relay_🇯🇵JP-🇯🇵JP_201 |21.05Mb
+  type: trojan
+  server: 153.121.67.215
+  port: 1331
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_202 |17.44Mb
+  type: trojan
+  server: 202.181.103.246
+  port: 2760
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: Relay_🇯🇵JP-🇯🇵JP_203 |27.17Mb
+  type: trojan
+  server: 13.112.81.124
+  port: 3169
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: Relay_🇯🇵JP-🇸🇬SG_204 | 0.54Mb
+  type: trojan
+  server: 160.16.153.13
+  port: 3145
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_205 |28.53Mb
+  type: trojan
+  server: 160.16.106.144
+  port: 4054
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_206 |19.06Mb
+  type: trojan
+  server: 160.16.124.55
+  port: 2890
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_207 | 2.47Mb
+  type: trojan
+  server: 160.16.136.130
+  port: 4054
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_208 |21.58Mb
+  type: trojan
+  server: 160.16.196.59
+  port: 2890
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_209 | 1.91Mb
+  type: trojan
+  server: 160.16.223.205
+  port: 4054
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇯🇵JP_210 |32.50Mb
+  type: trojan
+  server: 160.16.89.176
+  port: 4054
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: 🇵🇱PL_221 |11.98Mb
+  type: trojan
+  server: 5.188.108.13
+  port: 11790
+  tls: false
+  network: tcp
+  sni: runningshoes.purpletornado.click
+  password: .%252BQAJot50sDi6mvb
+- name: Pool_🇸🇪SE_225 |26.46Mb
+  type: trojan
+  server: 70.34.218.149
+  port: 11930
+  tls: false
+  network: tcp
+  sni: softpillow.silentrocket.click
+  password: BaeSzHdfJIR13l67
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - 🇺🇸US_273 |21.67Mb
+  - 🏁ZZ_275 |61.21Mb
+  - Relay_🏁ZZ-🇺🇸US_276 | 7.34Mb
+  - Pool_🏁ZZ_277 |37.79Mb
+  - 🏁ZZ_278 |22.98Mb
+  - _20 |20.51Mb
+  - _21 |16.61Mb
+  - _22 |32.17Mb
+  - _23 |23.39Mb
+  - _24 |24.17Mb
+  - _25 |19.66Mb
+  - 🇫🇷FR_76
+  - 🇭🇰HK_195 | 3.86Mb
+  - 🇭🇰HK_196 | 2.41Mb
+  - Relay_🇯🇵JP-🇸🇬SG_200 | 1.06Mb
+  - Relay_🇯🇵JP-🇯🇵JP_201 |21.05Mb
+  - 🇯🇵JP_202 |17.44Mb
+  - Relay_🇯🇵JP-🇯🇵JP_203 |27.17Mb
+  - Relay_🇯🇵JP-🇸🇬SG_204 | 0.54Mb
+  - 🇯🇵JP_205 |28.53Mb
+  - 🇯🇵JP_206 |19.06Mb
+  - 🇯🇵JP_207 | 2.47Mb
+  - 🇯🇵JP_208 |21.58Mb
+  - 🇯🇵JP_209 | 1.91Mb
+  - 🇯🇵JP_210 |32.50Mb
+  - 🇵🇱PL_221 |11.98Mb
+  - Pool_🇸🇪SE_225 |26.46Mb
+rules:
+- MATCH,PROXY
