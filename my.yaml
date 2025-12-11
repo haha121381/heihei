@@ -2158,6 +2158,162 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_181
+  type: vmess
+  server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
+  port: 80
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_182
+  type: vmess
+  server: cdefcfd1-t6ngg0-t6v6ki-1phla.hk3.p5pv.com
+  port: 80
+  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_183
+  type: vmess
+  server: 36c0e40f-t6ngg0-ta5i1s-1j61y.hk3.p5pv.com
+  port: 80
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_184
+  type: vmess
+  server: 5d507b1d-t729s0-t880mk-1lkt0.hk3.p5pv.com
+  port: 80
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_185
+  type: vmess
+  server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
+  port: 80
+  uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_186
+  type: vmess
+  server: db00038e-t729s0-taklwz-12bd.hk3.p5pv.com
+  port: 80
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_187
+  type: vmess
+  server: 1ca646ae-t729s0-tnbkh1-1ejce.hk3.p5pv.com
+  port: 80
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_188
+  type: vmess
+  server: c764b8be-t6r5s0-tcop2n-tl32.hk3.p5pv.com
+  port: 80
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_189
+  type: vmess
+  server: 4e465e18-t729s0-t83wx3-19xg1.hk3.p5pv.com
+  port: 80
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_190
+  type: vmess
+  server: 69654cd4-t6ngg0-t6lp0p-1lkt0.hk3.p5pv.com
+  port: 80
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_191
+  type: vmess
+  server: fb2b7355-t729s0-tcmken-19les.hk3.p5pv.com
+  port: 80
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: Relay_🇭🇰HK-🇭🇰HK_192
+  type: vmess
+  server: ac9735cb-t6t0g0-tkn6t8-1i3g8.hk3.p5pv.com
+  port: 80
+  uuid: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
 proxy-groups:
 - name: PROXY
   type: select
@@ -2339,5 +2495,17 @@ proxy-groups:
   - Relay_🇭🇰HK-🇭🇰HK_178
   - Relay_🇭🇰HK-🇭🇰HK_179
   - Relay_🇭🇰HK-🇭🇰HK_180
+  - Relay_🇭🇰HK-🇭🇰HK_181
+  - Relay_🇭🇰HK-🇭🇰HK_182
+  - Relay_🇭🇰HK-🇭🇰HK_183
+  - Relay_🇭🇰HK-🇭🇰HK_184
+  - Relay_🇭🇰HK-🇭🇰HK_185
+  - Relay_🇭🇰HK-🇭🇰HK_186
+  - Relay_🇭🇰HK-🇭🇰HK_187
+  - Relay_🇭🇰HK-🇭🇰HK_188
+  - Relay_🇭🇰HK-🇭🇰HK_189
+  - Relay_🇭🇰HK-🇭🇰HK_190
+  - Relay_🇭🇰HK-🇭🇰HK_191
+  - Relay_🇭🇰HK-🇭🇰HK_192
 rules:
 - MATCH,PROXY
