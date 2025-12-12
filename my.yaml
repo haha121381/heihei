@@ -30695,6 +30695,77 @@ proxies:
     path: /42031a35-b71e-4845-e1c8-6478acb96613
     headers:
       Host: ''
+- name: 中国 V2CROSS.COM
+  type: vmess
+  server: v30.hdacd.com
+  port: 30830
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 中国 V2CROSS.COM-1
+  type: vmess
+  server: v12.hdacd.com
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 南非 V2CROSS.COM
+  type: vmess
+  server: 45.207.157.29
+  port: 13852
+  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 亚太地区+V2CROSS.COM
+  type: trojan
+  server: feisha-other.kunlun06dns.com
+  port: 15025
+  tls: false
+  network: tcp
+  sni: openssl.nodesni.com
+  password: 9e5d7ec6-d24d-41dc-848d-54a2e3429d2f
+- name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+  type: vmess
+  server: 156.245.232.15
+  port: 21246
+  uuid: 9526b462-c45f-4940-83b9-a204462b0744
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心-1
+  type: vmess
+  server: 156.245.232.15
+  port: 39811
+  uuid: 76ee6d1f-e608-4041-b263-b74186a8ca23
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心-2
+  type: vmess
+  server: 156.245.232.15
+  port: 10234
+  uuid: 0e9a3ed8-64d3-4adc-aa30-f7ff8f4b69ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
+- name: 美国 V2CROSS.COM
+  type: vmess
+  server: 216.238.87.47
+  port: 27502
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: none
 proxy-groups:
 - name: PROXY
   type: select
@@ -33231,5 +33302,13 @@ proxy-groups:
   - 香港-2.13MB/s
   - 英国 伦敦Choopa数据中心
   - 英国 伦敦Choopa数据中心-1
+  - 中国 V2CROSS.COM
+  - 中国 V2CROSS.COM-1
+  - 南非 V2CROSS.COM
+  - 亚太地区+V2CROSS.COM
+  - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+  - 南非豪登省约翰内斯堡 Cloudinnovation数据中心-1
+  - 南非豪登省约翰内斯堡 Cloudinnovation数据中心-2
+  - 美国 V2CROSS.COM
 rules:
 - MATCH,PROXY
