@@ -101451,6 +101451,228 @@ proxies:
   sni:
   - 104.17.147.22
   uuid: Parsashonam-Bot-40
+- name: DE-🇦🇱[www.v2nodes.com]
+  type: ss
+  server: 193.135.174.135
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: DE-🇩🇿[www.v2nodes.com]
+  type: ss
+  server: 197.140.29.76
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: DE-🇩🇿[www.v2nodes.com]-1
+  type: ss
+  server: 102.207.216.176
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: DE-🇸🇬[www.v2nodes.com]
+  type: vless
+  server: free-server.techsonic.cloud
+  port: 443
+  tls: true
+  network: tcp
+  sni: free-server.techsonic.cloud
+  uuid: a4cb890e-8251-488e-9439-3403c9a58e55
+- name: DE-🇸🇬[www.v2nodes.com]-1
+  type: ss
+  server: 38.89.142.56
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: DE-🇸🇬[www.v2nodes.com]-2
+  type: ss
+  server: 167.150.100.115
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+- name: DE-🇸🇬[www.v2nodes.com]-3
+  type: trojan
+  server: 206.206.77.237
+  port: 51469
+  tls: false
+  network: grpc
+  sni: cloudflare.com
+  password: LxJCPOP40a
+- name: DE-🇮🇩[www.v2nodes.com]
+  type: ss
+  server: 154.205.159.100
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: DE-🇸🇬[www.v2nodes.com]-4
+  type: vless
+  server: 104.18.86.131
+  port: 443
+  tls: false
+  network: tcp
+  sni: 104.18.86.131
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+- name: DE-🇸🇬[www.v2nodes.com]-5
+  type: vless
+  server: ip.sb
+  port: 443
+  tls: true
+  network: ws
+  sni: azadnet-1cm.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: azadnet-1cm.pages.dev
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+- name: DE-🇸🇬[www.v2nodes.com]-6
+  type: vless
+  server: 154.197.121.253
+  port: 2096
+  tls: false
+  network: tcp
+  sni: 154.197.121.253
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+- name: DE-🇸🇬[www.v2nodes.com]-7
+  type: vless
+  server: 104.19.106.68
+  port: 2096
+  tls: true
+  network: ws
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram@ShadowProxy66 /?ed=2560
+    headers:
+      Host: vless.muzheng.top
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+- name: DE-🇸🇬[www.v2nodes.com]-8
+  type: vless
+  server: 166.62.114.253
+  port: 2096
+  tls: true
+  network: ws
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+    headers:
+      Host: vless.muzheng.top
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+- name: DE-🇸🇬[www.v2nodes.com]-9
+  type: vless
+  server: 104.24.172.153
+  port: 80
+  tls: false
+  network: ws
+  sni: 104.24.172.153
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 104.24.172.153
+  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+- name: 91.206.71.253:2096
+  type: vless
+  server: 91.206.71.253
+  port: 2096
+  tls: false
+  network: tcp
+  sni: 91.206.71.253
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+- name: DE-🇸🇬[www.v2nodes.com]-10
+  type: vless
+  server: 104.16.1.47
+  port: 80
+  tls: false
+  network: ws
+  sni: 104.16.1.47
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 104.16.1.47
+  uuid: b550a101-63fe-4862-bfd3-8b87bb4168dd
+- name: DE-🇯🇵[www.v2nodes.com]
+  type: vless
+  server: 178.239.126.118
+  port: 2443
+  tls: false
+  network: tcp
+  sni: pizzastrada.jp
+  uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
+- name: DE-🇯🇵[www.v2nodes.com]-1
+  type: vless
+  server: t25.qifei.app
+  port: 1443
+  tls: false
+  network: tcp
+  sni: www.amazon.com
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+- name: DE-🇯🇵[www.v2nodes.com]-2
+  type: ss
+  server: 103.75.118.125
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
+- name: DE-🇯🇵[www.v2nodes.com]-3
+  type: trojan
+  server: 52.195.194.77
+  port: 1924
+  tls: false
+  network: tcp
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+- name: DE-🇯🇵[www.v2nodes.com]-4
+  type: vless
+  server: 45.83.22.118
+  port: 443
+  tls: true
+  network: ws
+  sni: zula.ir
+  ws-opts:
+    path: /ws
+    headers:
+      Host: zula.ir
+  uuid: 456c916d-1241-4a5a-bd2b-c4abc69fd9ed
+- name: DE-🇯🇵[www.v2nodes.com]-5
+  type: ss
+  server: 103.106.228.247
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: DE-🇯🇵[www.v2nodes.com]-6
+  type: trojan
+  server: 13.112.81.124
+  port: 3169
+  tls: false
+  network: tcp
+  sni: www.nintendogames.net
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+- name: DE-🇯🇵[www.v2nodes.com]-7
+  type: vless
+  server: 172.111.146.64
+  port: 80
+  tls: false
+  network: ws
+  sni: 172.111.146.64
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 172.111.146.64
+  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
+- name: DE-🇯🇵[www.v2nodes.com]-8
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: DE-🇯🇵[www.v2nodes.com]-9
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: DE-🇯🇵[www.v2nodes.com]-10
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 proxy-groups:
 - name: 直连
   type: select
@@ -120653,6 +120875,33 @@ proxy-groups:
   - DE-[Trojan] 未知 TROJAN-1740 | free-nodes
   - DE-[Trojan] 未知 TROJAN-1777 | free-nodes
   - DE-未知 VLESS-28 | free-nodes
+  - DE-🇦🇱[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]-2
+  - DE-🇸🇬[www.v2nodes.com]-3
+  - DE-🇮🇩[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-4
+  - DE-🇸🇬[www.v2nodes.com]-5
+  - DE-🇸🇬[www.v2nodes.com]-6
+  - DE-🇸🇬[www.v2nodes.com]-7
+  - DE-🇸🇬[www.v2nodes.com]-8
+  - DE-🇸🇬[www.v2nodes.com]-9
+  - 91.206.71.253:2096
+  - DE-🇸🇬[www.v2nodes.com]-10
+  - DE-🇯🇵[www.v2nodes.com]
+  - DE-🇯🇵[www.v2nodes.com]-1
+  - DE-🇯🇵[www.v2nodes.com]-2
+  - DE-🇯🇵[www.v2nodes.com]-3
+  - DE-🇯🇵[www.v2nodes.com]-4
+  - DE-🇯🇵[www.v2nodes.com]-5
+  - DE-🇯🇵[www.v2nodes.com]-6
+  - DE-🇯🇵[www.v2nodes.com]-7
+  - DE-🇯🇵[www.v2nodes.com]-8
+  - DE-🇯🇵[www.v2nodes.com]-9
+  - DE-🇯🇵[www.v2nodes.com]-10
 - name: 故障切换
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -139877,6 +140126,33 @@ proxy-groups:
   - DE-[Trojan] 未知 TROJAN-1740 | free-nodes
   - DE-[Trojan] 未知 TROJAN-1777 | free-nodes
   - DE-未知 VLESS-28 | free-nodes
+  - DE-🇦🇱[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]-2
+  - DE-🇸🇬[www.v2nodes.com]-3
+  - DE-🇮🇩[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-4
+  - DE-🇸🇬[www.v2nodes.com]-5
+  - DE-🇸🇬[www.v2nodes.com]-6
+  - DE-🇸🇬[www.v2nodes.com]-7
+  - DE-🇸🇬[www.v2nodes.com]-8
+  - DE-🇸🇬[www.v2nodes.com]-9
+  - 91.206.71.253:2096
+  - DE-🇸🇬[www.v2nodes.com]-10
+  - DE-🇯🇵[www.v2nodes.com]
+  - DE-🇯🇵[www.v2nodes.com]-1
+  - DE-🇯🇵[www.v2nodes.com]-2
+  - DE-🇯🇵[www.v2nodes.com]-3
+  - DE-🇯🇵[www.v2nodes.com]-4
+  - DE-🇯🇵[www.v2nodes.com]-5
+  - DE-🇯🇵[www.v2nodes.com]-6
+  - DE-🇯🇵[www.v2nodes.com]-7
+  - DE-🇯🇵[www.v2nodes.com]-8
+  - DE-🇯🇵[www.v2nodes.com]-9
+  - DE-🇯🇵[www.v2nodes.com]-10
 - name: 地区-HK
   type: select
   proxies:
@@ -142431,6 +142707,32 @@ proxy-groups:
   - DE-[Trojan] 未知 TROJAN-1740 | free-nodes
   - DE-[Trojan] 未知 TROJAN-1777 | free-nodes
   - DE-未知 VLESS-28 | free-nodes
+  - DE-🇦🇱[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]
+  - DE-🇩🇿[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-1
+  - DE-🇸🇬[www.v2nodes.com]-2
+  - DE-🇸🇬[www.v2nodes.com]-3
+  - DE-🇮🇩[www.v2nodes.com]
+  - DE-🇸🇬[www.v2nodes.com]-4
+  - DE-🇸🇬[www.v2nodes.com]-5
+  - DE-🇸🇬[www.v2nodes.com]-6
+  - DE-🇸🇬[www.v2nodes.com]-7
+  - DE-🇸🇬[www.v2nodes.com]-8
+  - DE-🇸🇬[www.v2nodes.com]-9
+  - DE-🇸🇬[www.v2nodes.com]-10
+  - DE-🇯🇵[www.v2nodes.com]
+  - DE-🇯🇵[www.v2nodes.com]-1
+  - DE-🇯🇵[www.v2nodes.com]-2
+  - DE-🇯🇵[www.v2nodes.com]-3
+  - DE-🇯🇵[www.v2nodes.com]-4
+  - DE-🇯🇵[www.v2nodes.com]-5
+  - DE-🇯🇵[www.v2nodes.com]-6
+  - DE-🇯🇵[www.v2nodes.com]-7
+  - DE-🇯🇵[www.v2nodes.com]-8
+  - DE-🇯🇵[www.v2nodes.com]-9
+  - DE-🇯🇵[www.v2nodes.com]-10
 - name: 地区-FR
   type: select
   proxies:
@@ -159158,6 +159460,7 @@ proxy-groups:
   - PL波兰(mibei77.com 米贝节点分享)-7
   - PL波兰(mibei77.com 米贝节点分享)-8
   - PL波兰(mibei77.com 米贝节点分享)-9
+  - 91.206.71.253:2096
 rules:
 - GEOSITE,category-ads-all,REJECT
 - DOMAIN-SUFFIX,cn,DIRECT
