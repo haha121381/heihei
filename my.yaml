@@ -132356,7 +132356,6 @@ proxy-groups:
   - UK-Relay_🇬🇧GB-🇬🇧GB_82
   - Relay_🇵🇦PA-🇵🇦PA_119
   - RU-Relay_🇷🇺RU-🇷🇺RU_161
-  - SG-Relay_🇸🇬SG-🇸🇬SG_166
   - US-Relay_🇺🇸US-🇺🇸US_227
   - US-Relay_🇺🇸US-🇺🇸US_245
   - US-Relay_🇺🇸US-🇺🇸US_246
@@ -132367,7 +132366,8 @@ proxy-groups:
   - US-Relay_🇺🇸US-🇺🇸US_262
   - US-Relay_🇺🇸US-🇺🇸US_265
   - US-Relay_🏁ZZ-🇺🇸US_270
-  - HK-香港-2.13MB/s
+  - 中国 V2CROSS.COM
+  - 中国 V2CROSS.COM-1
   - 亚太地区+V2CROSS.COM
   - US-[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1
   - US-[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2
@@ -132375,7 +132375,6 @@ proxy-groups:
   - US-[VMess] 🇺🇸 美国 CloudFlare节点
   - RU-🇷🇺_RU_俄罗斯
   - UK-🇬🇧_GB_英国
-  - RU-🇷🇺_RU_俄罗斯-1
   - US-🇺🇸_US_美国
   - UK-🇬🇧_GB_英国-1
   - UK-🇬🇧_GB_英国-2
@@ -132385,7 +132384,6 @@ proxy-groups:
   - CA-🇨🇦_CA_加拿大
   - US-🇺🇸_US_美国-1
   - US-🇺🇸_US_美国-2
-  - HK-🇭🇰 香港4|@stairnode
   - US-美国_2
   - 澳洲_3
   - US-美国_8
@@ -132439,7 +132437,7 @@ proxy-groups:
   - HTTP 185.176.26.197:80
   - SOCKS4 5.190.229.170:8080
   - SOCKS4 89.237.32.33:51549
-  - HTTP 178.159.52.208:8080
+  - HTTP 185.176.24.48:80
   - SOCKS4 72.10.160.173:17631
   - SOCKS4 201.184.40.210:5678
   - HTTP 104.26.3.208:80
@@ -132453,13 +132451,12 @@ proxy-groups:
   - HTTP 35.209.198.222:80
   - HTTP 172.64.156.159:80
   - SOCKS4 112.78.128.10:5678
-  - HTTP 172.64.78.163:80
+  - HTTP 196.1.93.16:80
   - SOCKS4 147.78.70.234:30755
   - SOCKS4 72.209.45.119:3128
   - HTTP 104.16.232.191:80
   - HTTP 45.85.118.32:80
   - HTTP 172.67.202.242:80
-  - HTTP 177.234.217.82:999
   - HTTP 188.42.88.21:80
   - HTTP 87.255.196.143:80
   - HTTP 206.238.239.166:80
@@ -132467,17 +132464,15 @@ proxy-groups:
   - HTTP 104.21.207.209:80
   - SOCKS4 150.220.8.228:64312
   - SOCKS4 185.157.109.5:5678
-  - HTTP 79.174.12.190:80
   - HTTP 104.25.0.20:80
   - SOCKS4 92.42.8.23:4153
   - HTTP 160.123.255.10:80
   - SOCKS4 180.178.189.38:8080
+  - HTTP 98.64.128.182:3128
   - SOCKS4 187.87.199.161:3629
   - HTTP 95.216.148.196:80
-  - HTTP 208.87.243.199:7878
   - HTTP 185.148.107.124:80
   - HTTP 104.20.41.108:80
-  - HTTP 183.91.80.194:8089
   - HTTP 205.233.181.70:80
   - HTTP 192.200.160.187:80
   - HTTP 104.16.0.38:80
@@ -149537,11 +149532,11 @@ proxy-groups:
   - US-🇺🇸US_211-2
   - US-Relay_🇪🇸ES-🇺🇸US_70
   - 3.62Mb-1
+  - SG-Relay_🇸🇬SG-🇸🇬SG_166
   - JP-Relay_🇺🇸US-🇯🇵JP_223
+  - HK-香港-2.13MB/s
   - UK-英国 伦敦Choopa数据中心
   - UK-英国 伦敦Choopa数据中心-1
-  - 中国 V2CROSS.COM
-  - 中国 V2CROSS.COM-1
   - 南非 V2CROSS.COM
   - IN-南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - IN-南非豪登省约翰内斯堡 Cloudinnovation数据中心-1
@@ -149563,6 +149558,7 @@ proxy-groups:
   - US-[VMess] 🇺🇸 _US_美国_3
   - US-[VMess] 🇺🇸 _US_美国_4
   - SG-🇸🇬_SG_新加坡
+  - RU-🇷🇺_RU_俄罗斯-1
   - RU-🇷🇺_RU_俄罗斯-2
   - UK-🇬🇧_GB_英国-5
   - 🇸🇦_SA_沙特阿拉伯
@@ -149571,6 +149567,7 @@ proxy-groups:
   - FR-🇫🇷_FR_法国
   - 8元老牌专线机场：cczzuu.top
   - HK-🇭🇰 香港3|@stairnode
+  - HK-🇭🇰 香港4|@stairnode
   - JP-🇯🇵 日本|@stairnode
   - JP-🇯🇵 日本2|@stairnode
   - JP-🇯🇵 日本3|@stairnode
@@ -149628,7 +149625,7 @@ proxy-groups:
   - HTTP 180.191.40.45:9999
   - HTTP 49.88.254.118:3328
   - HTTP 113.160.214.209:8080
-  - HTTP 185.176.24.48:80
+  - HTTP 178.159.52.208:8080
   - HTTP 154.90.48.76:80
   - HTTP 43.229.127.26:8080
   - HTTP 38.65.172.4:999
@@ -149639,15 +149636,16 @@ proxy-groups:
   - HTTP 186.113.232.105:8080
   - HTTP 194.186.248.97:80
   - HTTP 58.69.161.62:8082
+  - HTTP 172.64.78.163:80
   - HTTP 217.160.221.48:3128
   - HTTP 188.127.237.101:49160
-  - HTTP 196.1.93.16:80
   - HTTP 49.70.172.243:2324
   - HTTP 171.233.50.223:8080
   - HTTP 67.43.228.251:4011
   - HTTP 131.100.51.146:999
   - SOCKS5 128.199.114.180:7497
   - HTTP 54.38.181.125:80
+  - HTTP 177.234.217.82:999
   - SOCKS5 106.75.189.147:999
   - SOCKS5 202.29.237.187:7497
   - SOCKS5 103.74.107.241:51101
@@ -149655,6 +149653,7 @@ proxy-groups:
   - HTTP 14.234.219.189:4002
   - HTTP 188.127.237.136:49160
   - HTTP 23.82.137.159:80
+  - HTTP 79.174.12.190:80
   - HTTP 168.227.11.135:9999
   - HTTP 121.233.141.226:3712
   - HTTP 78.24.186.97:8086
@@ -149662,7 +149661,6 @@ proxy-groups:
   - SOCKS5 43.153.56.181:443
   - HTTP 89.38.129.15:3128
   - HTTP 74.48.123.225:3128
-  - HTTP 98.64.128.182:3128
   - HTTP 223.206.192.41:8080
   - HTTP 103.242.104.208:7777
   - HTTP 114.244.74.251:9000
@@ -149670,6 +149668,7 @@ proxy-groups:
   - HTTP 181.12.169.91:11201
   - HTTP 204.216.152.229:3128
   - HTTP 189.36.129.185:8080
+  - HTTP 208.87.243.199:7878
   - HTTP 34.135.166.24:80
   - HTTP 147.182.180.242:80
   - HTTP 138.59.227.248:999
@@ -149678,6 +149677,7 @@ proxy-groups:
   - HTTP 104.223.103.221:3428
   - HTTP 124.121.94.199:8080
   - HTTP 38.158.83.193:999
+  - HTTP 183.91.80.194:8089
   - HTTP 185.221.160.219:80
   - HTTP 218.61.85.209:9090
   - HTTP 170.245.158.76:8080
@@ -154152,8 +154152,6 @@ proxy-groups:
   - HK-Relay_-🇭🇰HK_58-1
   - HK-Relay_🇭🇰HK-🇭🇰HK_134-3
   - HK-Relay_🇭🇰HK-🇭🇰HK_324-1
-  - HK-香港-2.13MB/s
-  - HK-🇭🇰 香港4|@stairnode
   - HK-[Trojan] 🇭🇰 HK TROJAN-220 | free-nodes
   - HK-HK香港(mibei77.com 米贝节点分享)
   - HK-HK香港(mibei77.com 米贝节点分享) 7
@@ -154188,7 +154186,6 @@ proxy-groups:
   - SG-Relay_🇸🇬SG-🇸🇬SG_197
   - SG-Relay_🏁ZZ-🇸🇬SG_274
   - SG-Relay_🇸🇬SG-🇸🇬SG_223
-  - SG-Relay_🇸🇬SG-🇸🇬SG_166
   - SG-SG新加坡(mibei77.com 米贝节点分享)
   - SG-SG新加坡(mibei77.com 米贝节点分享)-2
   - SG-SG新加坡(mibei77.com 米贝节点分享)-4
@@ -155313,7 +155310,6 @@ proxy-groups:
   - RU-Relay_-🇷🇺RU_30
   - RU-Relay_🇷🇺RU-🇷🇺RU_161
   - RU-🇷🇺_RU_俄罗斯
-  - RU-🇷🇺_RU_俄罗斯-1
   - RU-🇷🇺_RU_俄罗斯-3
   - RU-RU俄罗斯(mibei77.com 米贝节点分享)
   - RU-RU俄罗斯(mibei77.com 米贝节点分享)-1
@@ -155765,6 +155761,8 @@ proxy-groups:
   - NONAME-226
   - 🇸🇪SE_163
   - Relay_🇵🇦PA-🇵🇦PA_119
+  - 中国 V2CROSS.COM
+  - 中国 V2CROSS.COM-1
   - 亚太地区+V2CROSS.COM
   - 澳洲_3
   - HTTP 66.81.247.229:80
@@ -155806,7 +155804,7 @@ proxy-groups:
   - HTTP 185.176.26.197:80
   - SOCKS4 5.190.229.170:8080
   - SOCKS4 89.237.32.33:51549
-  - HTTP 178.159.52.208:8080
+  - HTTP 185.176.24.48:80
   - SOCKS4 72.10.160.173:17631
   - SOCKS4 201.184.40.210:5678
   - HTTP 104.26.3.208:80
@@ -155820,13 +155818,12 @@ proxy-groups:
   - HTTP 35.209.198.222:80
   - HTTP 172.64.156.159:80
   - SOCKS4 112.78.128.10:5678
-  - HTTP 172.64.78.163:80
+  - HTTP 196.1.93.16:80
   - SOCKS4 147.78.70.234:30755
   - SOCKS4 72.209.45.119:3128
   - HTTP 104.16.232.191:80
   - HTTP 45.85.118.32:80
   - HTTP 172.67.202.242:80
-  - HTTP 177.234.217.82:999
   - HTTP 188.42.88.21:80
   - HTTP 87.255.196.143:80
   - HTTP 206.238.239.166:80
@@ -155834,17 +155831,15 @@ proxy-groups:
   - HTTP 104.21.207.209:80
   - SOCKS4 150.220.8.228:64312
   - SOCKS4 185.157.109.5:5678
-  - HTTP 79.174.12.190:80
   - HTTP 104.25.0.20:80
   - SOCKS4 92.42.8.23:4153
   - HTTP 160.123.255.10:80
   - SOCKS4 180.178.189.38:8080
+  - HTTP 98.64.128.182:3128
   - SOCKS4 187.87.199.161:3629
   - HTTP 95.216.148.196:80
-  - HTTP 208.87.243.199:7878
   - HTTP 185.148.107.124:80
   - HTTP 104.20.41.108:80
-  - HTTP 183.91.80.194:8089
   - HTTP 205.233.181.70:80
   - HTTP 192.200.160.187:80
   - HTTP 104.16.0.38:80
@@ -170060,30 +170055,6 @@ rules:
 - GEOSITE,microsoft,国外网站
 - GEOSITE,apple,国外网站
 - GEOSITE,geolocation-!cn,国外网站
-- GEOSITE,openai,AI服务
-- DOMAIN-SUFFIX,openai.com,AI服务
-- DOMAIN-SUFFIX,chatgpt.com,AI服务
-- DOMAIN-SUFFIX,oaistatic.com,AI服务
-- DOMAIN-SUFFIX,oaiusercontent.com,AI服务
-- DOMAIN-SUFFIX,anthropic.com,AI服务
-- DOMAIN-SUFFIX,claude.ai,AI服务
-- DOMAIN-SUFFIX,perplexity.ai,AI服务
-- DOMAIN-SUFFIX,googleapis.com,AI服务
-- GEOSITE,netflix,流媒体
-- GEOSITE,disney,流媒体
-- GEOSITE,youtube,流媒体
-- GEOSITE,tiktok,流媒体
-- GEOSITE,spotify,流媒体
-- GEOSITE,steam,下载
-- DOMAIN-SUFFIX,steamcontent.com,下载
-- DOMAIN-SUFFIX,steamstatic.com,下载
-- DOMAIN-SUFFIX,epicgames.com,下载
-- DOMAIN-SUFFIX,gog.com,下载
-- GEOSITE,microsoft,微软苹果
-- GEOSITE,apple,微软苹果
-- DOMAIN-SUFFIX,windowsupdate.com,微软苹果
-- DOMAIN-SUFFIX,apple.com,微软苹果
-- DOMAIN-SUFFIX,icloud.com,微软苹果
 - MATCH,代理策略
 dns:
   enable: true
